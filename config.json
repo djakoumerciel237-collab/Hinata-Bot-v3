@@ -1,6 +1,6 @@
 {
-   "author": ["MahMUD"],
-    "facebookAccount": {
+  "author": ["MahMUD"],
+  "facebookAccount": {
     "email": "mahmudx077@gmail.com",
     "password": "",
     "2FASecret": "",
@@ -17,8 +17,7 @@
     "enable": false,
     "ignoreCommand": []
   },
-"adminBot": "61581453916589"
-  ],
+  "adminBot": ["61581453916589"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
@@ -58,12 +57,12 @@
     "socket": {
       "enable": true,
       "channelName": "uptime",
-      "verifyToken": "https:uptime.eloimekatula7.repl.co"
+      "verifyToken": "https://uptime.eloimekatula7.repl.co"
     }
   },
   "autoRestart": {
     "time": 3600000,
-    "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
+    "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
     "enable": true,
@@ -140,8 +139,4 @@
   },
   "whiteListModeThread": {
     "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
-  }
-}
+    "whiteListThread
